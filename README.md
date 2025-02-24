@@ -1,0 +1,3 @@
+This example demonstrates a common error in F# when dealing with mutable variables.  Because F# uses immutable data by default, understanding how mutability works is crucial to avoid unexpected behavior. The provided code attempts to swap two mutable variables, but it fails to do so correctly due to a misunderstanding of how mutability and pass-by-value interact in F#.
+
+The solution shows the correct way to swap variables, utilizing a tuple to handle the changes and return the updated values.
